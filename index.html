@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    <link rel="stylesheet" href="styles/style.css">
+    <title>HeaderTest</title>
+</head>
+<body>
+
+<header class="mdc-top-app-bar">
+    <div class="mdc-top-app-bar__row">
+        <div class="wrapper">
+            <section class="sec1">
+                <img src="assets/img/logo.png" alt="logo">
+            </section>
+
+            <section class="sec2">
+                <div class="panel1">
+                    <ul>
+                        <li>Ссылки<span class="material-icons">arrow_drop_down</span></li>
+                        <li>Контакты</li>
+                        <li>Теги<span class="material-icons">arrow_drop_down</span></li>
+                        <li>Просьбы<span class="material-icons">arrow_drop_down</span></li>
+                        <li>Избранное<span class="material-icons">arrow_drop_down</span></li>
+                        <li>Посещения<span class="material-icons">arrow_drop_down</span></li>
+
+                        <li class="search">
+                            <form class="searchForm">
+                                <label>
+                                    <input type="search">
+                                    <i class="searchButton material-icons mdc-icon-button__icon">search</i>
+                                </label>
+                            </form>
+                        </li>
+
+                        <li>
+                            <span class="material-icons">add_circle</span>
+
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+        <section class="sec3 mdc-theme--primary-bg">
+            <span class="material-icons profileBar">mail_outline</span>
+            <span class="material-icons profileBar">notifications_none</span>
+            <span class="material-icons profileBar">account_circle</span>
+        </section>
+    </div>
+</header>
+
+</body>
+</html>

@@ -1,0 +1,102 @@
+:root {
+    --mdc-theme-primary: #4876C3;
+    --mdc-theme-secondary: #FFC120;
+}
+
+header {
+    background-color: #4876C3;
+}
+
+.mdc-top-app-bar__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.sec2 {
+    display: flex;
+    align-items: center;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 5px;
+    margin: 2px;
+}
+
+ul {
+    display: flex;
+}
+
+span.profileBar {
+    padding: 10px;
+}
+
+input[type=search] {
+    -webkit-appearance: textfield;
+    -webkit-box-sizing: content-box;
+    font-family: inherit;
+    font-size: 100%;
+}
+
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button {
+    display: none;
+}
+
+input[type=search] {
+    width: 15px;
+    padding-left: 15px;
+    margin-right: 5px;
+    color: transparent;
+    cursor: pointer;
+}
+
+input[type=search]:hover {
+    background-color: #fff;
+}
+
+input[type=search]:focus {
+    width: 100px;
+    padding-left: 32px;
+    color: #000;
+    background-color: #fff;
+    cursor: auto;
+    display: block;
+}
+
+label {
+    display: flex;
+    align-items: center;
+}
+
+@media only screen and (max-width: 1200px) {
+    li {
+        font-size: 12px;
+    }
+
+    img {
+        width: 250px;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .sec2 ul li:not(.search) {
+        display: none;
+    }
+    .mdc-top-app-bar__row {
+        flex-direction: column;
+    }
+    .sec3 {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
